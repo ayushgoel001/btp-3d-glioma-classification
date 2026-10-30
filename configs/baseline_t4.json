@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "spatial_size": [96, 96, 96],
+  "crop_mode": "roi",
+  "margin": 16,
+  "modalities": ["flair", "t1", "t1ce", "t2"],
+  "base_channels": 16,
+  "group_norm_groups": 8,
+  "dropout": 0.30,
+  "batch_size": 1,
+  "gradient_accumulation": 4,
+  "epochs": 60,
+  "learning_rate": 0.0002,
+  "weight_decay": 0.0001,
+  "early_stopping_patience": 12,
+  "num_workers": 2,
+  "amp": true
+}

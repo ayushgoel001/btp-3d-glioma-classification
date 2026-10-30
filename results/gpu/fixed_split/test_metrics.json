@@ -1,0 +1,57 @@
+{
+  "accuracy": 0.8392857142857143,
+  "balanced_accuracy": 0.7159090909090908,
+  "best_epoch": 10,
+  "best_validation_balanced_accuracy": 0.8757575757575757,
+  "class_weights_lgg_hgg": [
+    2.4245283603668213,
+    0.6299019455909729
+  ],
+  "confusion_matrix_lgg_hgg": [
+    [
+      6,
+      6
+    ],
+    [
+      3,
+      41
+    ]
+  ],
+  "device": "cuda",
+  "elapsed_seconds": 581.6407113075256,
+  "macro_f1": 0.7362637362637363,
+  "n_patients": 56,
+  "per_class": {
+    "HGG": {
+      "f1": 0.9010989010989011,
+      "precision": 0.8723404255319149,
+      "recall": 0.9318181818181818,
+      "support": 44
+    },
+    "LGG": {
+      "f1": 0.5714285714285714,
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "support": 12
+    }
+  },
+  "roc_auc": 0.809659090909091,
+  "seed": 42,
+  "sensitivity_hgg": 0.9318181818181818,
+  "specificity_lgg": 0.5,
+  "split_counts": {
+    "test": {
+      "HGG": 44,
+      "LGG": 12
+    },
+    "train": {
+      "HGG": 204,
+      "LGG": 53
+    },
+    "val": {
+      "HGG": 45,
+      "LGG": 11
+    }
+  },
+  "test_loss": 0.4754051477315703
+}

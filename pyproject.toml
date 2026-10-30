@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "btp3d"
+version = "1.0.0"
+description = "Patient-level 3D HGG/LGG classification from BraTS 2020 MRI"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26,<3",
+  "pandas>=2.1,<3",
+  "scipy>=1.11,<2",
+  "scikit-learn>=1.3,<2",
+  "matplotlib>=3.8,<4",
+  "seaborn>=0.13,<1",
+  "nibabel>=5.2,<6",
+  "torch>=2.2,<3",
+  "tqdm>=4.66,<5",
+]
+
+[project.optional-dependencies]
+download = ["kagglehub>=0.3,<1"]
+dev = ["pytest>=8,<9", "ruff>=0.6,<1"]
+
+[project.scripts]
+btp3d-manifest = "btp3d.manifest:main"
+btp3d-preprocess = "btp3d.preprocess:main"
+btp3d-train = "btp3d.train:main"
+btp3d-cross-validate = "btp3d.cross_validate:main"
+btp3d-overfit-check = "btp3d.overfit_check:main"
+btp3d-infer = "btp3d.infer:main"
+btp3d-qa = "btp3d.qa:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

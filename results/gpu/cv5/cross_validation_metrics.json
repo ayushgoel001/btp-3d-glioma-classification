@@ -1,0 +1,353 @@
+{
+  "accuracy": 0.8726287262872628,
+  "balanced_accuracy": 0.846708280941261,
+  "confusion_matrix_lgg_hgg": [
+    [
+      61,
+      15
+    ],
+    [
+      32,
+      261
+    ]
+  ],
+  "fold_metrics": [
+    {
+      "accuracy": 0.9054054054054054,
+      "balanced_accuracy": 0.8412429378531073,
+      "best_epoch": 22,
+      "best_validation_balanced_accuracy": 0.9322033898305084,
+      "class_weights_lgg_hgg": [
+        2.4021739959716797,
+        0.631428599357605
+      ],
+      "confusion_matrix_lgg_hgg": [
+        [
+          11,
+          4
+        ],
+        [
+          3,
+          56
+        ]
+      ],
+      "device": "cuda",
+      "elapsed_seconds": 791.0840518474579,
+      "fold": 0,
+      "macro_f1": 0.8498985801217038,
+      "n_patients": 74,
+      "per_class": {
+        "HGG": {
+          "f1": 0.9411764705882353,
+          "precision": 0.9333333333333333,
+          "recall": 0.9491525423728814,
+          "support": 59
+        },
+        "LGG": {
+          "f1": 0.7586206896551724,
+          "precision": 0.7857142857142857,
+          "recall": 0.7333333333333333,
+          "support": 15
+        }
+      },
+      "roc_auc": 0.8790960451977401,
+      "seed": 42,
+      "sensitivity_hgg": 0.9491525423728814,
+      "specificity_lgg": 0.7333333333333333,
+      "split_counts": {
+        "test": {
+          "HGG": 59,
+          "LGG": 15
+        },
+        "train": {
+          "HGG": 175,
+          "LGG": 46
+        },
+        "val": {
+          "HGG": 59,
+          "LGG": 15
+        }
+      },
+      "test_loss": 0.38564913949576785,
+      "validation_fold": 1
+    },
+    {
+      "accuracy": 0.8918918918918919,
+      "balanced_accuracy": 0.8824858757062147,
+      "best_epoch": 11,
+      "best_validation_balanced_accuracy": 0.8655367231638418,
+      "class_weights_lgg_hgg": [
+        2.4021739959716797,
+        0.631428599357605
+      ],
+      "confusion_matrix_lgg_hgg": [
+        [
+          13,
+          2
+        ],
+        [
+          6,
+          53
+        ]
+      ],
+      "device": "cuda",
+      "elapsed_seconds": 550.4968202114105,
+      "fold": 1,
+      "macro_f1": 0.847265221878225,
+      "n_patients": 74,
+      "per_class": {
+        "HGG": {
+          "f1": 0.9298245614035088,
+          "precision": 0.9636363636363636,
+          "recall": 0.8983050847457628,
+          "support": 59
+        },
+        "LGG": {
+          "f1": 0.7647058823529411,
+          "precision": 0.6842105263157895,
+          "recall": 0.8666666666666667,
+          "support": 15
+        }
+      },
+      "roc_auc": 0.9412429378531073,
+      "seed": 42,
+      "sensitivity_hgg": 0.8983050847457628,
+      "specificity_lgg": 0.8666666666666667,
+      "split_counts": {
+        "test": {
+          "HGG": 59,
+          "LGG": 15
+        },
+        "train": {
+          "HGG": 175,
+          "LGG": 46
+        },
+        "val": {
+          "HGG": 59,
+          "LGG": 15
+        }
+      },
+      "test_loss": 0.2756817771272885,
+      "validation_fold": 2
+    },
+    {
+      "accuracy": 0.8378378378378378,
+      "balanced_accuracy": 0.7491525423728813,
+      "best_epoch": 29,
+      "best_validation_balanced_accuracy": 0.8631465517241379,
+      "class_weights_lgg_hgg": [
+        2.4555554389953613,
+        0.6278409361839294
+      ],
+      "confusion_matrix_lgg_hgg": [
+        [
+          9,
+          6
+        ],
+        [
+          6,
+          53
+        ]
+      ],
+      "device": "cuda",
+      "elapsed_seconds": 959.0380787849426,
+      "fold": 2,
+      "macro_f1": 0.7491525423728813,
+      "n_patients": 74,
+      "per_class": {
+        "HGG": {
+          "f1": 0.8983050847457628,
+          "precision": 0.8983050847457628,
+          "recall": 0.8983050847457628,
+          "support": 59
+        },
+        "LGG": {
+          "f1": 0.6,
+          "precision": 0.6,
+          "recall": 0.6,
+          "support": 15
+        }
+      },
+      "roc_auc": 0.8802259887005649,
+      "seed": 42,
+      "sensitivity_hgg": 0.8983050847457628,
+      "specificity_lgg": 0.6,
+      "split_counts": {
+        "test": {
+          "HGG": 59,
+          "LGG": 15
+        },
+        "train": {
+          "HGG": 176,
+          "LGG": 45
+        },
+        "val": {
+          "HGG": 58,
+          "LGG": 16
+        }
+      },
+      "test_loss": 0.541581437432182,
+      "validation_fold": 3
+    },
+    {
+      "accuracy": 0.8378378378378378,
+      "balanced_accuracy": 0.8739224137931034,
+      "best_epoch": 9,
+      "best_validation_balanced_accuracy": 0.8816091954022989,
+      "class_weights_lgg_hgg": [
+        2.4666666984558105,
+        0.6271186470985413
+      ],
+      "confusion_matrix_lgg_hgg": [
+        [
+          15,
+          1
+        ],
+        [
+          11,
+          47
+        ]
+      ],
+      "device": "cuda",
+      "elapsed_seconds": 488.94431805610657,
+      "fold": 3,
+      "macro_f1": 0.8005390835579516,
+      "n_patients": 74,
+      "per_class": {
+        "HGG": {
+          "f1": 0.8867924528301887,
+          "precision": 0.9791666666666666,
+          "recall": 0.8103448275862069,
+          "support": 58
+        },
+        "LGG": {
+          "f1": 0.7142857142857143,
+          "precision": 0.5769230769230769,
+          "recall": 0.9375,
+          "support": 16
+        }
+      },
+      "roc_auc": 0.9116379310344828,
+      "seed": 42,
+      "sensitivity_hgg": 0.8103448275862069,
+      "specificity_lgg": 0.9375,
+      "split_counts": {
+        "test": {
+          "HGG": 58,
+          "LGG": 16
+        },
+        "train": {
+          "HGG": 177,
+          "LGG": 45
+        },
+        "val": {
+          "HGG": 58,
+          "LGG": 15
+        }
+      },
+      "test_loss": 0.38215122059793083,
+      "validation_fold": 4
+    },
+    {
+      "accuracy": 0.8904109589041096,
+      "balanced_accuracy": 0.8816091954022989,
+      "best_epoch": 19,
+      "best_validation_balanced_accuracy": 0.8242937853107344,
+      "class_weights_lgg_hgg": [
+        2.41304349899292,
+        0.6306818127632141
+      ],
+      "confusion_matrix_lgg_hgg": [
+        [
+          13,
+          2
+        ],
+        [
+          6,
+          52
+        ]
+      ],
+      "device": "cuda",
+      "elapsed_seconds": 750.2843351364136,
+      "fold": 4,
+      "macro_f1": 0.8466386554621849,
+      "n_patients": 73,
+      "per_class": {
+        "HGG": {
+          "f1": 0.9285714285714286,
+          "precision": 0.9629629629629629,
+          "recall": 0.896551724137931,
+          "support": 58
+        },
+        "LGG": {
+          "f1": 0.7647058823529411,
+          "precision": 0.6842105263157895,
+          "recall": 0.8666666666666667,
+          "support": 15
+        }
+      },
+      "roc_auc": 0.8919540229885057,
+      "seed": 42,
+      "sensitivity_hgg": 0.896551724137931,
+      "specificity_lgg": 0.8666666666666667,
+      "split_counts": {
+        "test": {
+          "HGG": 58,
+          "LGG": 15
+        },
+        "train": {
+          "HGG": 176,
+          "LGG": 46
+        },
+        "val": {
+          "HGG": 59,
+          "LGG": 15
+        }
+      },
+      "test_loss": 0.30983451951601326,
+      "validation_fold": 0
+    }
+  ],
+  "fold_summary": {
+    "balanced_accuracy": {
+      "mean": 0.8456825930255212,
+      "std": 0.056525328544932966
+    },
+    "macro_f1": {
+      "mean": 0.8186988166785893,
+      "std": 0.043978857173097824
+    },
+    "roc_auc": {
+      "mean": 0.90083138515488,
+      "std": 0.02610407032655291
+    },
+    "sensitivity_hgg": {
+      "mean": 0.8905318527177088,
+      "std": 0.05005853917996439
+    },
+    "specificity_lgg": {
+      "mean": 0.8008333333333333,
+      "std": 0.13438388213538774
+    }
+  },
+  "macro_f1": 0.8196462183213569,
+  "n_patients": 369,
+  "per_class": {
+    "HGG": {
+      "f1": 0.9173989455184535,
+      "precision": 0.9456521739130435,
+      "recall": 0.8907849829351536,
+      "support": 293
+    },
+    "LGG": {
+      "f1": 0.7218934911242604,
+      "precision": 0.6559139784946236,
+      "recall": 0.8026315789473685,
+      "support": 76
+    }
+  },
+  "roc_auc": 0.881511586132567,
+  "seed": 42,
+  "sensitivity_hgg": 0.8907849829351536,
+  "specificity_lgg": 0.8026315789473685
+}

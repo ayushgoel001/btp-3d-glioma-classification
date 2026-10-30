@@ -1,0 +1,55 @@
+# Python and development environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Local credentials and editor state
+.env
+.env.*
+!.env.example
+kaggle.json
+*.pem
+*.key
+.idea/
+.vscode/
+
+# Data, caches and generated training artifacts
+data/raw/
+data/processed/
+data/cache/
+*.nii
+*.nii.gz
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+runs/
+artifacts/
+output/
+tmp/
+build/
+dist/
+
+# Large external archives; retain only the small reproducible code bundle
+*.zip
+!notebooks/btp1_gpu_code.zip
+
+# LaTeX build intermediates
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.xdv
+*.fls
+*.fdb_latexmk

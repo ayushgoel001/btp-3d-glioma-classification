@@ -1,0 +1,81 @@
+{
+  "prediction": "HGG",
+  "probability_lgg": 0.016140291467308998,
+  "probability_hgg": 0.983859658241272,
+  "checkpoint": "/content/drive/MyDrive/BTP1_GPU/runs/roi96_seed42/fixed_split/best_model.pt",
+  "preprocessing": {
+    "preprocess_config": {
+      "spatial_size": [
+        96,
+        96,
+        96
+      ],
+      "crop_mode": "roi",
+      "margin": 16,
+      "canonical_orientation": true
+    },
+    "original_shape": [
+      240,
+      240,
+      155
+    ],
+    "original_spacing": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "orientation": [
+      "R",
+      "A",
+      "S"
+    ],
+    "crop_bounds": [
+      [
+        80,
+        205
+      ],
+      [
+        37,
+        179
+      ],
+      [
+        14,
+        129
+      ]
+    ],
+    "cropped_shape": [
+      125,
+      142,
+      115
+    ],
+    "normalization": {
+      "flair": {
+        "mean": 173.00338745117188,
+        "std": 64.86593627929688,
+        "nonzero_voxels": 1342885
+      },
+      "t1": {
+        "mean": 354.272705078125,
+        "std": 84.18704223632812,
+        "nonzero_voxels": 1342885
+      },
+      "t1ce": {
+        "mean": 417.3292236328125,
+        "std": 109.1930160522461,
+        "nonzero_voxels": 1342885
+      },
+      "t2": {
+        "mean": 114.69398498535156,
+        "std": 47.6910285949707,
+        "nonzero_voxels": 1342885
+      }
+    },
+    "modalities": [
+      "flair",
+      "t1",
+      "t1ce",
+      "t2"
+    ]
+  },
+  "warning": "Academic research output only; not for clinical use."
+}

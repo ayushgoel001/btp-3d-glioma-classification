@@ -1,0 +1,19 @@
+{
+  "checkpoint_reload_predictions_match": true,
+  "epochs": 47,
+  "final_loss": 0.019940953701734543,
+  "n_patients": 8,
+  "passed": true,
+  "patient_ids": [
+    "BraTS20_Training_292",
+    "BraTS20_Training_323",
+    "BraTS20_Training_329",
+    "BraTS20_Training_282",
+    "BraTS20_Training_025",
+    "BraTS20_Training_016",
+    "BraTS20_Training_166",
+    "BraTS20_Training_113"
+  ],
+  "training_accuracy": 1.0,
+  "warning": "Memorization check only; these are not evaluation metrics."
+}

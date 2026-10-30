@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this project, cite this software record and the original BraTS dataset papers."
+title: "Patient-Level Glioma Grade Classification from Multimodal 3D MRI"
+type: software
+version: 1.0.0
+repository-code: "https://github.com/ayushgoel001/btp-3d-glioma-classification"
+url: "https://github.com/ayushgoel001/btp-3d-glioma-classification"
+authors:
+  - family-names: Goel
+    given-names: Ayush
+    affiliation: "Department of Chemical Engineering, Indian Institute of Technology Kharagpur"
+abstract: "A supervised patient-level HGG/LGG classification baseline on 369 BraTS 2020 patients, with four MRI modalities, a compact GroupNorm 3D residual network and recorded internal GPU evaluations."
+keywords:
+  - BraTS 2020
+  - multimodal MRI
+  - glioma grade classification
+  - 3D convolutional neural network
+  - patient-level evaluation

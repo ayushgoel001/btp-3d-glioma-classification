@@ -1,0 +1,48 @@
+{
+  "source": "Frozen supplied GPU experiment archive",
+  "training_modules_match_executed_source": true,
+  "module_sha256": {
+    "src/btp3d/__init__.py": "fdba0a55fa80fa8e767d533ad3494ddb7ca7a264e4e7bd00cfe448baa6006dff",
+    "src/btp3d/cross_validate.py": "713bd08b0e80bc1ea384a9269d6db68fcf2d7e4c0993a1a1e46b29479ffa92d6",
+    "src/btp3d/dataset.py": "fbe754ec4de2e1ee40b83795635825bbdfbb836b1d7a20589b328eac984342ad",
+    "src/btp3d/infer.py": "b92d97343f63e4dd10bea40faddef7f4e7fa95b50143e2366cc9d6892ce9d159",
+    "src/btp3d/manifest.py": "5b35b553c928fe225c2def4f1d317daa11c2447058b648354ef0a9a6422fd6ad",
+    "src/btp3d/metrics.py": "18be4ba317e823086f4b4479a8ffeca343f771f92f6a61c09924ff69e1f5c1b3",
+    "src/btp3d/model.py": "0ca6bd6f156ab6702a441321bd8690af5777bd8da5b507101bcfc26d177f4f32",
+    "src/btp3d/overfit_check.py": "40dd5f90eb6e1621bcc61f7b4094ae89b622abe974f434bc656715f8f60300eb",
+    "src/btp3d/preprocess.py": "77ae3ed1fc3598759473a2369981dfa63d92155f1b00aace4e530d5b0c68ec22",
+    "src/btp3d/qa.py": "acb6c96290e3d7be6d9f71f762957e4d7dab6b93bd8ca5d8f1ce5c8b3e410314",
+    "src/btp3d/train.py": "b593c5f05be9ab674a9bc7fffa372fd8913f6834e77ad09c1d9d8dd203a8624d",
+    "src/btp3d/utils.py": "1462654d4e4af07ad187b5810b295eed0a5d1329b89cffc67bb51664d14f26a9"
+  },
+  "documents": {
+    "report/BTP_Report.pdf": "3c8a25b2b94ab5b850d8c647440ab49a5409c1a0b2822ba81c754dd9a4ddb5e8",
+    "presentation/BTP_Presentation.pptx": "56100bf89f4f9ee15ccd73763c739339b7264f77807f911b9bc97c76409dac5f"
+  },
+  "notebooks": {
+    "original_sha256": "0e7f716d03b06aa8044a636ad26228f33cb3ce2dc93dbc784ff4cc2b7de7ac19",
+    "cleaned_is_an_edited_record": true,
+    "new_gpu_training_performed": false
+  },
+  "excluded_large_artifacts": [
+    "Original MRI volumes",
+    "Processed tensor caches",
+    "Model checkpoints",
+    "Full results ZIP"
+  ],
+  "module_sha256_normalized_lf": {
+    "src/btp3d/__init__.py": "fdba0a55fa80fa8e767d533ad3494ddb7ca7a264e4e7bd00cfe448baa6006dff",
+    "src/btp3d/cross_validate.py": "713bd08b0e80bc1ea384a9269d6db68fcf2d7e4c0993a1a1e46b29479ffa92d6",
+    "src/btp3d/dataset.py": "fbe754ec4de2e1ee40b83795635825bbdfbb836b1d7a20589b328eac984342ad",
+    "src/btp3d/infer.py": "b92d97343f63e4dd10bea40faddef7f4e7fa95b50143e2366cc9d6892ce9d159",
+    "src/btp3d/manifest.py": "5b35b553c928fe225c2def4f1d317daa11c2447058b648354ef0a9a6422fd6ad",
+    "src/btp3d/metrics.py": "18be4ba317e823086f4b4479a8ffeca343f771f92f6a61c09924ff69e1f5c1b3",
+    "src/btp3d/model.py": "0ca6bd6f156ab6702a441321bd8690af5777bd8da5b507101bcfc26d177f4f32",
+    "src/btp3d/overfit_check.py": "40dd5f90eb6e1621bcc61f7b4094ae89b622abe974f434bc656715f8f60300eb",
+    "src/btp3d/preprocess.py": "77ae3ed1fc3598759473a2369981dfa63d92155f1b00aace4e530d5b0c68ec22",
+    "src/btp3d/qa.py": "acb6c96290e3d7be6d9f71f762957e4d7dab6b93bd8ca5d8f1ce5c8b3e410314",
+    "src/btp3d/train.py": "b593c5f05be9ab674a9bc7fffa372fd8913f6834e77ad09c1d9d8dd203a8624d",
+    "src/btp3d/utils.py": "1462654d4e4af07ad187b5810b295eed0a5d1329b89cffc67bb51664d14f26a9"
+  },
+  "hash_note": "Module normalized-LF hashes permit Git line-ending normalization. Original archive-byte hashes are also retained."
+}
